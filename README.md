@@ -1,6 +1,10 @@
 # Angular2 + Wordpress
 
+[![Build Status](https://travis-ci.org/smartbiz/angular2-wordpress.svg?branch=master)](https://travis-ci.org/smartbiz/angular2-wordpress)
+[![Build Status](https://ci.appveyor.com/project/smartbiz/angular2-wordpress?svg=true)](https://ci.appveyor.com/project/smartbiz/angular2-wordpress)
+[![GPLv3+ License](https://img.shields.io/badge/license-GPLv3+-brightgreen.svg)](http://opensource.org/licenses/MIT)
 [![Join the chat at https://gitter.im/smartbiz/angular2-wordpress](https://badges.gitter.im/smartbiz/angular2-wordpress.svg)](https://gitter.im/smartbiz/angular2-wordpress?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 > Build a Mobile App for your WordPress based business using Angular 2.
 
 # Development Environment
@@ -21,13 +25,23 @@
 
 1. [Git](http://git-scm.com "Git distributed version control system") installed. I recommend using [SourceTree](https://www.sourcetreeapp.com)
 ```
-  git clone https://github.com/SmartBiz/Angular2-Wordpress.git Angular2-Wordpress
+  git clone --depth 1 https://github.com/smartbiz/angular2-wordpress.git
 ```
 
 1. Install the project's dependencies:
 ```
-  cd Angular2-Wordpress
+  cd angular2-wordpress
+  # install the project's dependencies
   npm install
+  # watches your files and uses livereload by default
+  npm start
+  # api document for the app
+  npm run docs
+
+  # dev build
+  npm run build.dev
+  # prod build
+  npm run build.prod
 ```
 
 # Main features
