@@ -9,7 +9,8 @@ import 'rxjs/add/operator/map'; //TODO
 if ('<%= ENV %>' === 'prod') { enableProdMode(); }
 
 bootstrap(AppComponent, [
-  HTTP_PROVIDERS, ROUTER_PROVIDERS,
+  HTTP_PROVIDERS,
+  ROUTER_PROVIDERS,
   provide(APP_BASE_HREF, { useValue: '<%= APP_BASE %>' })
 ]);
 

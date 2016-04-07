@@ -58,6 +58,19 @@
 - Following the [best practices for your application’s structure](https://github.com/mgechev/angular2-style-guide).
 - Manager of your type definitions using [typings](https://github.com/typings/typings).
 - Basic Service Worker, which implements "Cache then network strategy".
+.
+├── src
+│   ├── main.ts 
+│   ├── app
+│   │   └── components
+│   │       └── app.component.ts
+│   ├── search
+│   │   └── *.*
+│   ├── shared
+│   │   ├── services
+│   │   │   └── search.service.ts
+│   │   └── data
+│   │       └── menu.json
 
 ### Directory Structure
 
@@ -73,7 +86,7 @@
 │   ├── home
 │   │   └── components
 │   ├── index.html
-│   ├── main.ts
+│   ├── main.ts                <= 
 │   ├── shared
 │   │   └── services
 │   │       ├── name-list...
