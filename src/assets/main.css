@@ -20,30 +20,36 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*
 p {
   font-weight: 400;
   letter-spacing: 0.01em;
-  line-height: 20px;
+  line-height: 1em;
   margin-bottom: 1em;
   margin-top: 1em;
 }
 
 ul {
-  margin: 10px 0 0 0;
-  padding: 0 0 0 20px;
+  margin: 0.5em 0 0 0;
+  padding: 0 0 0 1em;
 }
+*/
 
 li {
-  font-weight: 400;
-  margin-top: 4px;
+  margin-top: 0.5em;
+}
+
+label {
+  display: inline-block;
+  width: 3em;
+  margin: 0.5em 0;
+  color: #106cc8;
 }
 
 input {
   border: 1px solid #106cc8;
-  font-size: 14px;
-  height: 40px;
-  outline: none;
-  padding: 8px;
+  height: 2em;
+  font-size: 1em;
 }
 
 button {
@@ -52,10 +58,8 @@ button {
   color: rgba(255, 255, 255, 0.87);
   cursor: pointer;
   display: inline-block;
-  font-size: 14px;
-  height: 40px;
-  padding: 8px 18px;
-  text-decoration: none;
+  height: 2em;
+  font-size: 1em;
 }
 
 button:hover {
