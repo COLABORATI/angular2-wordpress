@@ -48,7 +48,39 @@
 
 
 # Changelog
-## Version 1.0
+
+## Version 1.0.1
+- SASS & *.scss support
+.
+├── gulpfile.ts
+├── tools
+│   ├── tasks                  <- gulp tasks
+│   │   ├── project            <- project specific gulp tasks
+│   │   │   ├── build.html_scss.ts
+│   │   │   ├── build.index.dev.ts
+│   │   │   └── scss-lint.ts
+│   └── config
+│       └── project.config.ts  <- configuration of the specific project
+├── src
+│   ├── assets
+│   │   ├── _variables.scss
+│   │   ├── _colors.scss
+│   │   └── main.scss
+│   ├── app
+│   │   └── components
+│   │       ├── navbar.component.scss
+│   │       └── toolbar.component.scss
+│   ├── about
+│   │   └── components
+│   │       └── about.component.scss
+│   ├── home
+│   │   └── components
+│   │       └── home.component.scss
+│   ├── search
+│   │   └── components
+│   │       └── search.component.scss
+
+## Version 1.0.0
 - Ready to go, statically typed build system using gulp for working with TypeScript.
 - Production and development builds.
 - Sample unit tests with Jasmine and Karma.
@@ -96,7 +128,7 @@
 ├── tools
 │   ├── README.md              <- build documentation
 │   ├── config
-│   │   ├── project.config.ts  <- configuration of the specific project
+│   │   ├── project.config.ts  <= configuration of the specific project
 │   │   ├── seed.config....
 │   │   └── seed.config.ts     <- generic configuration of the seed project
 │   ├── config.ts              <- exported configuration (merge both seed.config and project.config, project.config overrides seed.config)

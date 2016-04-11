@@ -1,3 +1,6 @@
+@import "variables";
+@import "colors";
+
 /* Reset */
 html,
 body,
@@ -14,13 +17,12 @@ div {
 
 /* Set up a default font and some padding to provide breathing room */
 body {
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-  font-size: 16px;
+  font-family: $md-font-family;
+  font-size: $md-body-font-size-base;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/*
 p {
   font-weight: 400;
   letter-spacing: 0.01em;
@@ -33,7 +35,6 @@ ul {
   margin: 0.5em 0 0 0;
   padding: 0 0 0 1em;
 }
-*/
 
 li {
   margin-top: 0.5em;
@@ -47,13 +48,13 @@ label {
 }
 
 input {
-  border: 1px solid #106cc8;
+  border: 1px solid md-color($app-blue, 500);
   height: 2em;
   font-size: 1em;
 }
 
 button {
-  background-color: #106cc8;
+  background-color: md-color($app-blue, 500);
   border-style: none;
   color: rgba(255, 255, 255, 0.87);
   cursor: pointer;
@@ -63,5 +64,5 @@ button {
 }
 
 button:hover {
-  background-color: #28739e;
+  background-color: md-color($app-blue, 400);
 }
