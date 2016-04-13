@@ -49,8 +49,10 @@
 
 # Changelog
 
-## Version 1.0.1
+## Version 1.0.1, 1.0.2, 1.0.3
 - SASS & *.scss support
+- Icon Fonts: icomoon_free, font_awesome
+- ng2-bootstrap-1.0.11
 .
 ├── gulpfile.ts
 ├── tools
