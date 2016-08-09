@@ -53,7 +53,8 @@
 - SASS & *.scss support
 - Icon Fonts: icomoon_free, font_awesome
 - ng2-bootstrap-1.0.11
-.
+
+```
 ├── gulpfile.ts
 ├── tools
 │   ├── tasks                  <- gulp tasks
@@ -81,6 +82,7 @@
 │   ├── search
 │   │   └── components
 │   │       └── search.component.scss
+```
 
 ## Version 1.0.0
 - Ready to go, statically typed build system using gulp for working with TypeScript.
@@ -92,7 +94,8 @@
 - Following the [best practices for your application’s structure](https://github.com/mgechev/angular2-style-guide).
 - Manager of your type definitions using [typings](https://github.com/typings/typings).
 - Basic Service Worker, which implements "Cache then network strategy".
-.
+
+```
 ├── src
 │   ├── main.ts 
 │   ├── app
@@ -105,6 +108,7 @@
 │   │   │   └── search.service.ts
 │   │   └── data
 │   │       └── menu.json
+```
 
 ### Directory Structure
 
